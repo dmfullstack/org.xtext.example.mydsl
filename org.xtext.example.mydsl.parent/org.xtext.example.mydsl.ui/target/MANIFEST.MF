@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.xtext.example.mydsl.ui; singleton:=true
+Export-Package: org.xtext.example.mydsl.ui.internal,org.xtext.example.
+ mydsl.ui.quickfix,org.xtext.example.mydsl.ui.contentassist
+Bundle-Name: org.xtext.example.mydsl.ui
+Bundle-Version: 1.0.0.201708302054
+Require-Bundle: org.xtext.example.mydsl,org.xtext.example.mydsl.ide,or
+ g.eclipse.xtext.ui,org.eclipse.xtext.ui.shared,org.eclipse.xtext.ui.c
+ odetemplates.ui,org.eclipse.ui.editors;bundle-version="3.5.0",org.ecl
+ ipse.ui.ide;bundle-version="3.5.0",org.eclipse.ui,org.eclipse.compare
+ ,org.eclipse.xtext.builder,org.eclipse.xtend.lib;resolution:=optional
+ ,org.eclipse.xtext.xbase.lib
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Activator: org.xtext.example.mydsl.ui.internal.MydslActivator
+Bundle-Vendor: My Company
+Import-Package: org.apache.log4j
+

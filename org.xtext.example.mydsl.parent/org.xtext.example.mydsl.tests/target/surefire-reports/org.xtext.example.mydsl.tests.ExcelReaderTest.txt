@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: org.xtext.example.mydsl.tests.ExcelReaderTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec <<< FAILURE! - in org.xtext.example.mydsl.tests.ExcelReaderTest
+readRowByHeaderColumnNotFound(org.xtext.example.mydsl.tests.ExcelReaderTest)  Time elapsed: 0.04 sec
+readRowByValue(org.xtext.example.mydsl.tests.ExcelReaderTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at org.xtext.example.mydsl.tests.ExcelReaderTest.readRowByValue(ExcelReaderTest.java:29)
+
+readRowByValueNotFound(org.xtext.example.mydsl.tests.ExcelReaderTest)  Time elapsed: 0.003 sec
+readRowScenario2(org.xtext.example.mydsl.tests.ExcelReaderTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at org.xtext.example.mydsl.tests.ExcelReaderTest.readRowScenario2(ExcelReaderTest.java:109)
+
+readRowByHeaderColumn(org.xtext.example.mydsl.tests.ExcelReaderTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at org.xtext.example.mydsl.tests.ExcelReaderTest.readRowByHeaderColumn(ExcelReaderTest.java:69)
+
