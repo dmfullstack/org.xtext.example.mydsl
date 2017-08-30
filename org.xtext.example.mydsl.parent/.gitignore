@@ -1,0 +1,49 @@
+# javadoc
+docs.tar
+
+# Ant
+build
+
+# Maven
+target
+bin
+
+# IntelliJ IDEA
+*.iws
+*.iml
+*.ipr
+*.*._trace
+.idea/
+
+# Eclipse
+#.classpath
+#.project
+#.settings
+.buildpath
+.externalToolBuilders
+
+# Visual Studio Code
+*.vsix
+
+#Folders:
+.gradle
+.m2
+
+# Xtext
+java-gen
+src-gen
+xtext-gen
+xtend-gen
+generated
+.antlr-generator-3.2.0-patch.jar
+
+# Mac OS X
+.DS_Store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db 
+Desktop.ini
